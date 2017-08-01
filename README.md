@@ -146,9 +146,9 @@ This folder contains an `inventory.test.js` that will unit test the `mockdata.js
 **NEEDS WORK** This folder also contains a `test/inventoryPost.js` that can perform endpoint testing against the deployed function through mocha.  Before you can run tests, you need to set the `OW_IP_ADDRESS`, `OW_NAMESPACE`, and `OW_AUTH_TOKEN` environment variables to the value of the IP address, namespace, and auth token of the OpenWhisk EE in question.  Using values from the example above:
 
 ```bash
-export OW_IP_ADDRESS=34.212.77.96
-export OW_NAMESPACE=guest
-export OW_AUTH_TOKEN=23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP
+export OW_IP_ADDRESS=<host>
+export OW_NAMESPACE=<namespace>
+export OW_AUTH_TOKEN=<auth>
 ```
 
 Now to run the tests:
